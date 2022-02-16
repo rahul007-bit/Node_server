@@ -1,0 +1,16 @@
+{
+  "name": "documents",
+  "version": "1.0.0",
+  "description": "Server for register new user and get there data",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rahul Yadav",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "express": "^4.17.2",
+    "mongoose": "^6.2.1"
+  }
+}
