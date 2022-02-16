@@ -48,7 +48,7 @@ app.get("/userData", (req, res) => {
         dateOfBirth: found.dateOfBirth,
       });
     } else {
-      return res.send({ error: "Connection fail! " });
+      return res.send({ error: "Couldn’t connect to Database. " });
     }
   });
 });
